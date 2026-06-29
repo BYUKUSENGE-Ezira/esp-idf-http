@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS "src/app_http_client.c"
+    INCLUDE_DIRS "include"
+
+    REQUIRES
+        app_config
+        app_wifi
+        esp_http_client
+        esp_wifi
+        esp_event
+)
