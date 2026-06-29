@@ -1,0 +1,32 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "${workspaceFolder}/build/config",
+    "C:/esp/v6.0.1/esp-idf/components/**"
+  ],
+  "C_Cpp.default.forcedInclude": [
+    "${workspaceFolder}/build/config/sdkconfig.h"
+  ],
+  "C_Cpp.default.defines": [
+    "ESP_PLATFORM"
+  ],
+  "idf.extensionActivationMode": "always",
+  "idf.currentSetup": "C:\\esp\\v6.0.1\\esp-idf",
+  "idf.buildPath": "${workspaceFolder}/build",
+  "idf.flashType": "UART",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.portWin": "COM4",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-20.1.1_20250829\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\darho\\esp-idf\\academy\\esp-idf-http\\examples\\01_client_get\\build"
+  ]
+}
